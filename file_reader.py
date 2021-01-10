@@ -10,7 +10,8 @@ class FileReader:
             return data
 
         except FileNotFoundError:
-            print("Your file not founding")
+            print("Your file \"" + file + "\" not founding")
+            raise SystemExit
 
 
 
