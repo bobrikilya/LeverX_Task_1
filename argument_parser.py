@@ -2,6 +2,7 @@ import argparse
 
 
 class ArgumentParser:
+    """Class for the ability to enter parameters from the command line"""
     def __init__(self):
         self.args = None
         self.parser_creating()
